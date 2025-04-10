@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* 🌙 Global Styles */
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* 🌟 Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #e6edf3;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* 📜 Paragraphs */
+p {
+    margin-bottom: 15px;
+}
+
+/* 🔗 Links */
+a {
+    color: #58a6ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #1f6feb;
+}
+
+/* 🔲 Code Blocks */
+/* 🌙 Dark Mode Background */
+pre {
+    background: #161b22;
+    padding: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 14px;
+    line-height: 1.4;
+    border: 1px solid #30363d;
+    box-shadow: 0px 0px 26px -2px #2c00ff30;
+}
+pre:hover {
+    box-shadow: 0px 0px 26px 2px #2c00ff30;
+  transition: all .7s cubic-bezier(.7, 0, .3, 1);
+}
+code {
+    background: #161b22;
+    color: #e6edf3;
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+/* 🎨 Syntax Highlighting */
+.hljs {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+    font-family: 'Fira Code', monospace !important;
+}
+
+/* 🔹 Keywords (const, let, function) */
+.hljs-keyword {
+    color: #ff7b72 !important;
+}
+
+/* 🟢 Strings */
+.hljs-string {
+    color: #a5d6ff !important;
+}
+
+/* 🔸 Numbers */
+.hljs-number {
+    color: #f2cc60 !important;
+}
+
+/* 💬 Comments */
+.hljs-comment {
+    color: #8b949e !important;
+    font-style: italic !important;
+}
+
+/* 🟠 Function Names */
+.hljs-function {
+    color: #d2a8ff !important;
+}
+
+/* 🔵 Variables */
+.hljs-variable {
+    color: #ffa657 !important;
+}
+
+/* 🔺 Operators (+, -, *, =) */
+.hljs-operator {
+    color: #79c0ff !important;
+}
+
+/* 🔹 Built-in Functions (console, Math) */
+.hljs-builtin {
+    color: #ffa657 !important;
+}
+
+/* 🏷️ Meta Information */
+.hljs-meta {
+    color: #c9d1d9 !important;
+}
+
+
+/* 📌 Blockquotes */
+blockquote {
+    background: #161b22;
+    border-left: 4px solid #58a6ff;
+    padding: 10px 15px;
+    margin: 15px 0;
+    color: #8b949e;
+    font-style: italic;
+}
+blockquote p {
+    margin: 0;
+}
+
+/* 📋 Lists */
+ul, ol {
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 5px;
+}
+
+/* ✅ Task List (GitHub Only) */
+input[type="checkbox"] {
+    accent-color: #58a6ff;
+}
+
+/* 📊 Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #30363d;
+}
+th {
+    background: #161b22;
+    color: #c9d1d9;
+    font-weight: bold;
+}
+td {
+    background: #0d1117;
+}
+
+/* 🎯 Horizontal Rule */
+hr {
+    border: 1px solid #30363d;
+    margin: 20px 0;
+}
+
+/* 🏷️ Footnotes */
+sup {
+    font-size: 12px;
+}
+
+/* 🎭 Collapsible Sections */
+details {
+    background: #161b22;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+summary {
+    font-weight: bold;
+    color: #58a6ff;
+}
+
+/* 🖥️ Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    pre {
+        font-size: 13px;
+    }
+}
